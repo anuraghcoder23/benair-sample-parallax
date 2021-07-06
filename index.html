@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <style>
+      html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+.header {
+  background-image: url("https://www.csginc.com/hubfs/pexels-sergei-akulich-2539462.jpg");
+    min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+}
+
+.header .container {
+  position: relative;
+  top: 250px;
+}
+
+.header h1 {
+  color: #fff;
+  line-height: 100px;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #fff;
+
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+.nav {
+  background: #000;
+  height: 80px;
+  width: 100%;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s;
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #117bff;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  float: left;
+  margin: 50px 80px 50px 0;
+}
+
+.jumbotron {
+  background: url(https://www.compressorsunlimited.com/hubfs/commercial%20hvac%20system.png) center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 200px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: right;
+}
+
+.jumbotron p {
+  color: #fff;
+  text-align: right;
+}
+jumbotron .btn {
+  margin: 10px 0 0;
+  float: right;
+}
+
+footer {
+  background: #000;
+  height: 80px;
+  padding-bottom: 50px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  main img {
+    width: 100%;
+  }
+}
+
+
+    </style>
+
+    <div class="header">
+      <div class="container">
+        <h1>BENAIR</h1>
+        <p>GET YOUR NEW A/C</p>
+        <a class="btn" href="#"></a>
+         </div>
+    </div>
+
+    <div class="nav">
+      <div class="container-fluid">
+        <ul>
+          <li>Book an AC</li>
+          <li>Book an inspection</li>
+          <li>Book a Call</li>
+          <li>Book an Appointment</li>
+          <li>Product Catalogue</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <img src="data:image/png;base64,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" height="128" width="196">
+        <h2>The HVAC Contractor out to change the Industry</h2>
+        <p>Connect with the best minds across our team and get instant solutions to your problems, let it be maintenance or updating your existing equipment .</p>
+        <p>Hear this industry leader talk about what worked (and what didn't) so that you can save time on looking for a new company and get it right here.</p>
+        <p>Learn about the latest industry standards and about our efforts in conserving the environment as we move forward </p>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h2>Stay Connected</h2>
+        <p>Receive weekly newsletters from our team of experts.</p>
+        <a class="btn" href="#">Join</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <p>&copy; BenAir Air Conditioning Co. LLC. </p>
+      </div>
+    </div>
+  </body>
+</html>
