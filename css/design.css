@@ -1,3 +1,4 @@
+/* Sample CSS for Benair Website*/
 html, body {
 margin: 0;
 padding: 0;
@@ -15,10 +16,10 @@ padding: 0 10px;
 }
 
 .header {
-background-image: url("https://www.csginc.com/hubfs/pexels-sergei-akulich-2539462.jpg");
+background-image: url("https://i0.wp.com/dynamicairexperts.com/wp-content/uploads/2018/02/hvac.jpg?fit=3264%2C2448&ssl=1");
 min-height: 500px;
 
-/* Create the parallax scrolling effect */
+/* The sample parallax effect for the Website */
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -101,11 +102,12 @@ float: left;
 margin: 50px 80px 50px 0;
 }
 
-.jumbotron {
+.bottomlayer {
 background: url(https://www.compressorsunlimited.com/hubfs/commercial%20hvac%20system.png) center center;
 min-height: 500px;
 
-/* Create the parallax scrolling effect */
+/* The 2nd sample parallax effect for the bottom image */
+
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -113,23 +115,24 @@ background-size: cover;
 text-align:center;
 }
 
-.jumbotron .container {
+.bottomlayer .container {
 position: relative;
 top: 200px;
 }
 
-.jumbotron h2 {
+.bottomlayer h2 {
 color: #fff;
 text-align: right;
 }
 
-.jumbotron p {
+.bottomlayer p {
 color: #fff;
 text-align: right;
 }
-jumbotron .btn {
+bottomlayer .btn {
 margin: 10px 0 0;
 float: right;
+
 }
 
 footer {
@@ -152,7 +155,7 @@ font-size: 50px;
 line-height: 64px;
 }
 
-main, .jumbotron {
+main, .bottomlayer {
 padding: 0 30px;
 }
 
